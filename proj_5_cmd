@@ -1,0 +1,4 @@
+sudo chmod -R 777 /var/logs/archive
+tar xvzf archive.tar.gz
+rm /var/logs/archive/*.tmp
+find /var/logs/archive -name '*user deleted*'
