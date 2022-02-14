@@ -1,7 +1,4 @@
 #sql запрос
 
 select Иван Иванов from users ii;
-select ii.* from users ii;
-select Иван Иванов from users ii;
-
-select domains.dname,ii.id from ii left join domains on user_id=ii.id
+select domains.dname,domains.user_id from domains right join ii on user_id=ii.i
